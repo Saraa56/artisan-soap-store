@@ -1,33 +1,127 @@
-# E-Commerce-D.X.
+# Artisan Soap Store
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+Tienda web desarrollada para un emprendimiento dedicado a la elaboración y comercialización de **jabones artesanales**.
 
-## Built with v0
+El proyecto proporciona una experiencia digital para presentar el catálogo de productos, sus características e información relevante, con una interfaz moderna, visual y responsive.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+## Características principales
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_Dx4aOmpZDKxIENOffcLp5b7jUn32)
+* Catálogo de productos artesanales.
+* Filtrado por categorías.
+* Información detallada de cada producto.
+* Ingredientes y tipo de piel recomendado.
+* Productos destacados y ediciones especiales.
+* Interacciones visuales en el catálogo.
+* Diseño responsive.
+* Secciones informativas sobre productos e ingredientes.
+* Información sobre la marca.
+* Preguntas frecuentes.
+* Navegación enfocada en la experiencia de usuario.
 
-## Getting Started
+## Capturas de pantalla
 
-First, run the development server:
+> Agrega aquí las capturas principales de la aplicación.
+
+<img width="1907" height="898" alt="image" src="https://github.com/user-attachments/assets/c9791f7f-5043-491f-abf3-2077e7837239" />
+
+<img width="1271" height="885" alt="image" src="https://github.com/user-attachments/assets/6d142c0f-d8ff-49a0-933f-80363b28f45b" />
+
+<img width="915" height="786" alt="image" src="https://github.com/user-attachments/assets/d90ef4eb-e96d-425b-95b5-522b09e5d85e" />
+
+
+## Demo
+
+**Aplicación desplegada:**
+
+https://e-commerce-dx.vercel.app
+
+## Para empezar
+
+### Prerequisitos
+
+Para ejecutar el proyecto necesitas tener instalado:
+
+* Node.js
+* pnpm
+
+### Instalación
+
+Clona el repositorio:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/Saraa56/artisan-soap-store.git
+```
+
+Accede al directorio:
+
+```bash
+cd artisan-soap-store
+```
+
+Instala las dependencias:
+
+```bash
+pnpm install
+```
+
+Inicia el servidor de desarrollo:
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+La aplicación estará disponible en:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## Stack
 
-To learn more, take a look at the following resources:
+* **Next.js 16**
+* **React 19**
+* **TypeScript**
+* **Tailwind CSS 4**
+* **shadcn/ui**
+* **Lucide React**
+* **Vercel**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+## Estructura del proyecto
+
+```text
+artisan-soap-store/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+├── lib/
+├── public/
+│   └── images/
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+└── tsconfig.json
+```
+
+## Sobre el proyecto
+
+Artisan Soap Store fue desarrollado como una solución web para un **emprendimiento real**, con el objetivo de establecer una presencia digital para la marca y mejorar la presentación de su catálogo de productos.
+
+La primera versión se desarrolló como un **MVP**, enfocado principalmente en la experiencia de navegación, presentación de productos y organización del catálogo.
+
+El proyecto continúa en evolución y cuenta con funcionalidades pendientes de implementar en futuras iteraciones.
+
+## Estado
+
+**MVP funcional — en evolución.**
+
+La versión actual cuenta con el catálogo, filtros por categoría, información de productos, secciones informativas y diseño responsive.
+
+Se contempla continuar ampliando la solución con nuevas funcionalidades orientadas a la experiencia de compra y a las necesidades del negocio.
+
+## Autor
+
+**Sara Otero**
+
+Ingeniería de Software
